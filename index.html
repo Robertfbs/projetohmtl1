@@ -5,11 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 1 HTML</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    
+
+    <Style>
+        p,li {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15pt;
+        }
+
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-size: 25pt;
+        }   
+
+        h2{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20pt;
+        }
+
+        h4{
+            font-family: 'Poppins', sans-serif;
+            font-size: 30pt;
+            text-align: center;
+        }
+
+        li{
+
+            font-size: 13pt;
+            
+        }
+
+
+    </Style>
+
 </head>
 <body>
     <h4>Primeiros Passos com HTML!</h4>
 
-    <h2>Introdução</h2>
+    <h3>Introdução</h3>
 
     <p>
         No início desta aventura, descobrimos um pouco sobre a história da WEB, como surgiu, alguns dos nomes e como eram os primeiros computadores e os grandes nomes a quem
@@ -77,7 +115,7 @@
         Ainda podemos verificar como é o WWW, criado em 6 de agosto de 1991, em http://info.cern.ch/.
 
         Aprendemos alguns dos grandes nomes da Tecnologia, como: <br>
-        <ul>
+        <strong><ul>
             <li>Grace Murray Hopper - Uma as primeira programadoras do Mark I em 1944, criadora ad linguagem de programação Flow-Matic, (base do COBOL) e criadora do termo "bug;</li>
             <li>Joseph Carl Robnett Licklider - O teorizador da rede "galática" de computadores;</li>
             <li>Robert E. Kahn - Apresentou o primeiro e-mail e criou o TCP/IP;</li>
@@ -87,10 +125,10 @@
             </li>
             <li>Bill Gates - Apenas o criador da Microsoft que conhecemos bem atualmente e o possibilitador de que todos pudessem ter acesso a um PC e consequentemente, a internet;</li>
             <li>Steve Jobs - Fundador da Apple, concorrente direta da Microsoft e popularizador do smartphone que conhecemos hoje, através do lançamento do iPhone em 29/06/2007</li>
-        </ul>
+        </ul></strong>
     </p>
         
-    <h2>O que São Clients</h2>
+    <h2>O que São Clients?</h2>
 
     <p>
         O conceito de client se tratando de WEB, é onde serão acessados os sites e páginas criados por exemplo. No caso, um usuário utilizando algum dospositivo como computador ou smartphone,
@@ -116,14 +154,15 @@
         Aplicações Web, são soluções criadas que possuem a internet como meio de comunicação Client x Server, não sendo necessário instalação.
 
         Exemplos de aplicações web famosas: <br>
+    </p>
 
-        <ol>
+    <strong><ol>
             <li>Youtube</li>
             <li>Facebook</li>
             <li>Twitter</li>
             <li>Linkedin</li>
-        </ol>
-
+        </ol></strong>
+    <p>
         Estas, são aplicações web, uma vez que não necessitam de instalação no dispositivo, você acessa através do Navegador (Browser).
         Mas e se eu baixar o app do youtube e instalar no meu dispositivo? Aí você deixa de ter uma aplicação web e passa a ter um aplicativo.
         Terão a mesma função no final das contas, porém, seus códigos serão diferentes e funcionaram de forma divergente.
@@ -132,7 +171,7 @@
         acessar a internet. Isso sem contar aquelas pessoas que ainda não possuem um PC, apenas um smartphone.
     </p>
     
-    <h2>O que São Servers</h2>
+    <h2>O que São Servers?</h2>
     
     <p>
         Agora falemos um pouco sobre os Servers.
@@ -151,6 +190,26 @@
         servidores IMENSOS, que armazenam páginas, arquivos e mais um bilhão de coisas, como é o caso da Amazon ou do Google que possuem áreas quilométricas apenas para manter seus
         servidores.
         
+        Em relação a tipos de Servers, temos alguns diferentes como os listados abaixo:
+
+    <strong><ul>
+            <li>Arquivos</li>
+            <li>Segurança (Firewall)</li>
+            <li>Streaming</li>
+            <li>E-mail</li>
+            <li>Web</li>
+        </ul></strong>
+
+        Entre os Servers de segurança, temos o Proxy, por exemplo, que pode ser usado entre o dispositivo e a internet, neste caso, funcionando como filtro, do que pode ser acessado
+        naquela rede, como por exemplo, empresas que não permitem que seus funcionários acessem o youtube na rede do trabalho. (<i>F Musiquinha #chateado</i>) ou mesmo para melhorar
+        desempenho da navegação, funcionando como "cache", armazenando alguns dados para serem pré-carregados, antes mesmo do acesso ao server principal, da página que será acessada.
+
+        Além disso, existe os "Database Servers" que são bancos de dados, onde podem ser guardadas algunas informações, como credenciais de logins de acesso, por exemplo.
+        No caso de acesso a um facebook da vida, você acessa a página do facebook, através do Application server (web server), porém para usufruir de fato da navegação, você 
+        vai precisar e um login e senha, que estarão no database server e serão validados ou criados, para que você tenha acesso total ao facebook.
+
+        Em casos de servidoes web, apenas para rede, sem acesso a internet em si, chamamos de <strong>"Intranet"</strong>, servindo muitas vezes como local de documentação de 
+        informações, como na empresa onde eu trabalho, que possui uma intranet, onde podemos verificar os procedimentos internos da empresa em casos de demandas específicas.
     </p>
     
 
@@ -178,7 +237,7 @@
         não alteram sua função principal.
     </p>
     <p>
-        Aprendemos como criar uma lista ordenada e uma lista não ordenada, através das tags "ul" e "ol".
+        Aprendemos como criar uma lista ordenada e uma lista não ordenada, através das tags "&ltul&gt" e "&ltol&gt".
     </p>
     <p>
         E por fim, neste módulo aprendemos também sobre como incluir links em nosso HTML, através da tag "a" e seu fiel atributo "href" que serve para referenciar a qual página
